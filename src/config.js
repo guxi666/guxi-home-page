@@ -1,14 +1,14 @@
 const config = {
   //网页元数据
   metaData:{
-    title: 'Leleo的个人主页🎉',
-    description: '欢迎来到Leleo的奇妙世界！',
-    keywords: 'Leleo,leleo,个人主页,个人网站',
-    icon: '/favicon.ico'   //网页图标，支持外链
+    title: '顾熙的个人主页🎉',
+    description: '欢迎来到顾熙的奇妙世界！',
+    keywords: '顾熙,个人主页,个人网站'
+    icon: '/favicon.ico'
   },
 
   avatar: "/img/avatar.jpg", // 头像
-  welcometitle: "Hi, I'm Leleo", // 标题
+  welcometitle: "Hi, I'm 顾熙", // 标题
 
   // 颜色配置
   color: {
@@ -51,12 +51,12 @@ const config = {
 
   //社交按钮
   socialPlatformIcons: [
-    {icon:"mdi-github",link:"https://www.github.com/leleo886"},
-    {icon:"mdi-email",link:"mailto:leleo886@foxmail.com"},
-    {icon:"mdi-qqchat",link:"https://im.qq.com/"},
+    {icon:"mdi-github",link:"https://www.github.com/guxi666"},
+    {icon:"mdi-email",link:"mailto:1@s686.cn/"},
+    {icon:"mdi-qqchat",link:"https://wpa.qq.com/msgrd?v=3&uin=407177932&site=qq&menu=yes/"},
     {icon:"mdi-wechat",link:"https://wx.qq.com/"},
-    {icon:"mdi-youtube",link:"https://www.youtube.com"},
-    {icon:"mdi-facebook",link:"https://www.facebook.com"}
+    {icon:"mdi-youtube",link:"https://www.youtube.com/@%E9%A1%BE%E7%86%99-s2e"},
+    {icon:"mdi-facebook",link:"https://www.facebook.com/profile.php?id=100080902644398&mibextid=ZbWKwL"}
   ],
 
   //打字机
@@ -71,7 +71,7 @@ const config = {
   musicPlayer:{
     server: 'netease',  //服务提供商 --网易云音乐
     type: 'playlist',   //歌单类型
-    id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+    id: '8672474416'  //歌单id ---> music.163.com/#/playlist?id=8672474416
   },
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -131,19 +131,20 @@ const config = {
     ],
   },
 
+
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
   projectcards:[ 
-    {go:"🚀 前往",img:"/img/sunshine.jpg",title:"Project 1",subtitle:"1,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"💍 前往",img:"/img/sunshine.jpg",title:"Project 7",subtitle:"7,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    {go:"🔍 前往",img:"/img/sunshine.jpg",title:"Project 8",subtitle:"8,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    {go:"🚀 前往",img:"/img/1.jpg",title:"顾熙博客",subtitle:"没时间更新，将就看看吧", text:"喜欢欢玩网站的可以交个朋友.",url:"https://blog.a686.de",show:false},
+    {go:"🗂️ 前往",img:"/img/2.jpg",title:"我的导航",subtitle:"方便查看旗下站点", text:"看一看呗.",url:"https://a686.de",show:false},
+    {go:"📝 前往",img:"/img/3.jpg",title:"顾熙无限邮箱",subtitle:"自用临时邮箱", text:"我自己用的邮箱，看着短一点.",url:"https://webmail.a686.de",show:false},
+    {go:"👍 前往",img:"/img/4.jpg",title:"顾熙图床",subtitle:"自用图床系统", text:"利用CF和Telegram搭建的图床.",url:"https://img.a686.de",show:false},
+    {go:"🗃 前往",img:"/img/5.jpg",title:"私人聊天室",subtitle:"自用聊天室", text:"Fiora聊天室，博客有搭建教程.",url:"https://qq.a686.de",show:false},
+    {go:"🎨 前往",img:"/img/6.jpg",title:"谷歌搜索",subtitle:"谷歌一下", text:"点一下就行.",url:"https://www.google.com/search?q=site%3Ablog.a686.de&sca_esv=a023834be663cdb6&sxsrf=AHTn8zoq_xmOOamq_6sGuERg7ulCRIKQYg%3A1743932247182&ei=V0vyZ67lCp6XnesP3ar1iQo&oq=site%3A&gs_lp=Egxnd3Mtd2l6LXNlcnAiBXNpdGU6KgIIADIEECMYJzIEECMYJzIEECMYJzIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywFIlhBQjgVYrglwAXgAkAEAmAHtAaABkgaqAQUwLjIuMrgBA8gBAPgBAZgCAaACuQGYAwCIBgGSBwMwLjGgB8gHsgcDMC4xuAe5AQ&sclient=gws-wiz-serp",show:false},
+    {go:"💍 前往",img:"/img/7.jpg",title:"百度搜索",subtitle:"百度一下", text:"点一下就行.",url:"https://www.baidu.com/s?wd=site%3Ablog.a686.de&rsv_spt=1&rsv_iqid=0x88150af703c8d8c4&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=baiduhome_pg&rsv_dl=tb&rsv_enter=1&oq=%25E9%25A1%25BE%25E7%2586%2599%25E5%258D%259A%25E5%25AE%25A2&rsv_btype=t&inputT=10921&rsv_t=67caukFld2VjO234PZ6kSTLJccoczgdtedoT6YtuEVyosB5thXvas%2BvjY58o6HeZ3NN6&rsv_pq=8a252ceb01a71b2e&rsv_sug3=31&rsv_sug1=20&rsv_sug7=100&rsv_sug2=0&rsv_sug4=10921",show:false},
+    {go:"🔍 前往",img:"/img/8.jpg",title:"必应搜索",subtitle:"必应一下", text:"点一下就行.",url:"https://cn.bing.com/search?q=%e9%a1%be%e7%86%99%e5%8d%9a%e5%ae%a2&qs=n&sp=-1&lq=0&pq=%e9%a1%be%e7%86%99%e5%8d%9a%e5%ae%a2&sc=0-4&sk=&cvid=2D0D8B4D7B594633BBD3E601928F8BE3&FPIG=9ADA658EA3F54971B80CA880C327BF79&first=1&FORM=PEREp",show:false},
   ],
   
-  statement: ["备案号：XXICP备123456789号","Copyright © 2025 Leleo"],
+  statement: ["备案号：印ICP备88888888号","Copyright © 2025 顾熙"],
 }
 
 export default config
