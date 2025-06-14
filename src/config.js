@@ -3,7 +3,7 @@ const config = {
   metaData:{
     title: '顾熙的个人主页🎉',
     description: '欢迎来到顾熙的奇妙世界！',
-    keywords: '顾熙,个人主页,个人网站'
+    keywords: '顾熙,个人主页,个人网站',
     icon: '/favicon.ico'
   },
 
